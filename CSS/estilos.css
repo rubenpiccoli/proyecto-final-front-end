@@ -2,42 +2,88 @@
 #Nav{
     background-color: violet;
 }
+
+/*Lateral Izquierdo*/
 #curriculum{
     border: 1px solid black;
-    height: 1000px;  
+    font-family: 'Mitr', sans-serif;
+    font-size: 20px;
 }
 #foto_perfil{
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
 img {
     border: 4px solid grey ;
-    width: 50%;
+    width: 80%;
     background-size: cover;
     border-radius: 50%;
+    
 }
-H6{
-    text-decoration: underline;
-}
+
 .lista_info{
     
     list-style: none;
     margin-bottom: 50PX ;
 
 }
+.titulo1{
+    font-weight: bold;
+    border-bottom: 1px solid black; 
+}
 .lista_habilidades li{
     margin-left: 15px;
 }
 
-#hoja_curriculum{
+/*#hoja_curriculum{
     background-color: brown;
     height: 1000px;
-}
+}*/
 #lateral_izquierdo{
-    background-color:khaki;
+    background-color:rgb(238, 234, 188);
     
 }
 #lateral_dercho{
     width: 200px;
-    height: 1000px;
+    /*height: 1000px;*/
+    background-color: black;
+}
+
+/* Lateral Derecho*/
+#Nombre{
+    
+    text-align: center;
+}
+#nombre{
+    /*background-color: aqua;*/
+    font-family: 'Lato', sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+    margin-top: 40px;
+    font-size: 70px;
+}
+#profesion{
+    font-size: 35px;
+}
+.experiencia .row{
+margin-top: 30px;
+}
+.experiencia h6{
+    margin-top: 30px;
+    }
+.columna_experiencia{
+    border-left: 1px solid black;
+    
+}
+
+.row .col p{
+    text-align: right;
+}
+.columna_educacion{
+    border-left: 1px solid black;
+    
+}
+.titulo{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    margin: 30px;
 }

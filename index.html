@@ -12,8 +12,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
       
        
-      
-</head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Lato:ital,wght@1,900&family=Mitr:wght@300&display=swap" rel="stylesheet">
 <body>
 
     <header id="Nav">
@@ -31,13 +32,15 @@
                          
                         <div id="foto_perfil">
                              <!--Imgen-->
-                           <img id="imagen_perfil" src="https://randomuser.me/api/portraits/men/48.jpg" alt="Imagen">
+                           <img id="imagen_perfil" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Imagen">
                         </div>
                         <div >
                         <!--Contacto-->
                         <ul class="lista_info">
-                            <h6>__CONTACTO_______</h6>
-                          <li>  <i class="fa fa-phone"> 3435-415471</i></li>
+                          <div class="titulo1">
+                            <h6>CONTACTO</h6>
+                          </div> 
+                            <li>  <i class="fa fa-phone"> 3435-415471</i></li>
                           <li> <i class="fa fa-envelope" aria-hidden="true"> hola@sitioincreible.com</i></li>
 
                           <li>  <i class="fa fa-facebook-f"> hola@sitioincreible.com</i></li>
@@ -50,7 +53,9 @@
                     <!-- /////////// Perfil //////////--> 
                        <div >
                           <ul class="lista_info">
-                            <h6>__PERFIL____________</h6>
+                            <div class="titulo1">
+                            <h6>PERFIL</h6>
+                            </div>
                                <li>Edad: 33 años</li>
                                <li>Fecha Nacimiento: 27/01/1990</li>
                                <li>Localiad: Buenos Aires</li>
@@ -60,8 +65,11 @@
 
                        <!-- /////////// IDIOMA//////////--> 
                        <div >
+                        
                         <ul class="lista_info">
-                          <h6>__IDIOMA____________</h6>
+                          <div class="titulo1">
+                          <h6>IDIOMA</h6>
+                          </div>
                              <li>Ingles avanzado</li>
                              <li>Francés intermedio</li>
                              
@@ -70,9 +78,12 @@
 
                      <!-- /////////// HABILIDADES//////////--> 
                      <div >
+
                         <ul class="lista_habilidades">
-                          <h6>__HABILIDADES_______</h6>
-                             <li>Organizació</li>
+                          <div class="titulo1">
+                          <h6>HABILIDADES</h6>
+                          </div>
+                             <li>Organización</li>
                              <li>Gestión de activos</li>
                              <li>Responsabiliad</li>
                              <li>Comunicación asertiva</li>
@@ -80,15 +91,123 @@
                         </ul>
                      </div>
                     </div>
+
+
+
                 <!--Informacion personal 2-->
-                     <div id="lateral_derecho" class="col-lg-8 col-sm-12">
-                      
+     <div id="lateral_derecho" class="col-lg-8 col-sm-12">
+                    
+                    <!--Nombre--- Profesion-->
+                    <div id="Nombre">
+                          <h2 id="nombre">SANDRA HARO</h2>
+                          <H4 id="profesion">Contadora</H4>
+                    </div>
+
+                    <!--Experiencia-->
+                  <div class="experiencia">
+                      <div class="titulo">
+                      <h6>    EXPERIENCIA</h6>
+                     </div>
+                      <dir class="row">
+                                  <dir class="col">
+                                      <P>Marzo 2018</P>
+                                      <p>Actualidad</p> 
+                                  </dir>
+                                  <div  class="col columna_experiencia">
+                                    <ul>
+                                    <li><h4>Encargada de Contabilidad</h4></li>
+                                        <h5>Tanka S.R.L</h5>
+                                        <ul>
+                                          <li>Gestióon de Facturas con más de 2000 recibos trimestrales.</li>
+                                          <li>Elaboración de cuentas anuales e impuestos sobre sociedades.</li>
+                                          <li>Jefa de equipo de 8 contables.</li>
+                                        </ul>
+                                      
+
+                                    </ul> 
+                                  </div>
+
+                      </dir>
+                      <dir class="row">
+                                    <dir class="col">
+                                        <P>Octubre 2014</P>
+                                        <p>Febrero 2018</p> 
+                                    </dir>
+                                    <div  class="col columna_experiencia">
+                                      <ul>
+                                      <li><h4>Contadora</h4></li>
+                                          <h5>Álvarez y Pérez</h5>
+                                          <ul>
+                                            <li>Pago y elaboración de impuestos.</li>
+                                            <li>Análisis y creación de balances.</li>
+                                            <li>Gestión de cobros.</li>
+                                            <li>Gestión de activos.</li>
+                                          </ul>
+                                        
+
+                                      </ul> 
+                                    </div>
+
+                      </dir>
 
 
-                      </div>
+                   </div>
 
-
+              <!--EDUCACION-->
+              <div class="educacion">
+                <div class="titulo">    
+                <h6>    EDUCACIÓN </h6>
                 </div>
+                        <dir class="row">
+                          <dir class="col">
+                              <P>Agosto 2017</P>
+                              <p>Agosto 2018</p> 
+                          </dir>
+                          <div  class="col columna_educacion">
+                            <ul>
+                            <li><h4>Master de contabilidad</h4></li>
+                                <h5>Universidad</h5>
+                                
+                          </div>
+
+                        </dir>
+                        <dir class="row">
+                                  <dir class="col">
+                                      <P>Marzo 2008</P>
+                                      <p>Diciembre 2013</p> 
+                                  </dir>
+                                  <div  class="col columna_educacion">
+                                    <ul>
+                                    <li><h4>Licenciatura en finanzas</h4></li>
+                                        <h5>Universidad</h5>
+                                        
+                                  </div>
+
+                        </dir>
+                        <dir class="row">
+                          <dir class="col">
+                              <P>2002 - 2007</P>
+                              
+                          </dir>
+                          <div  class="col columna_educacion">
+                            <ul>
+                            <li><h4>Nivel Secundario </h4></li>
+                                <h5>Escuela N° 1</h5>
+                                
+                          </div>
+
+                </dir>
+              </dir>
+
+                      
+              
+              
+            </div
+ 
+     </div>
+     
+
+   </div>
 
 
 </div>
